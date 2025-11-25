@@ -1,0 +1,54 @@
+{
+  "name": "kr-js-input-validator",
+  "version": "1.0.1",
+  "description": "A powerful input validation library for React and Vanilla JS with multilingual support (Korean/English)",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test-manual.js",
+    "test:browser": "open test-demo.html",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "validation",
+    "validator",
+    "input",
+    "form",
+    "react",
+    "vanilla-js",
+    "korean",
+    "multilingual",
+    "typescript"
+  ],
+  "author": "Kim Jaeseung",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.45",
+    "react": "^18.2.0",
+    "rollup": "^4.9.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kim-jaeSeung/npm-validator.git"
+  }
+}
